@@ -99,8 +99,6 @@ In this step, we perform different sets of validation on the given set of traini
 
 ### Language Used - Python
 
-### Deployed on - AWS(Elastic Beanstalk) - https://www.knowledgehut.com/blog/cloud-computing/what-is-beanstalk and https://aws.amazon.com/elasticbeanstalk/
-
 ### Framework - Flask
 
 ### Tools - PyCharm
