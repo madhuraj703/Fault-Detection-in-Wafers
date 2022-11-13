@@ -17,6 +17,9 @@ The client sent data in multiple sets of files in batches at a given location. D
 Apart from training files, we also require a "schema" file from the client, which contains all the relevant information about the training files such as:
 Name of the files, Length of Date value in FileName, Length of Time value in FileName, Number of Columns, Name of the Columns, and their datatype.
 
+## Pipeline Architecture - 
+ ![Alt text](https://user-images.githubusercontent.com/54364376/109826645-01467a00-7c61-11eb-955b-b5f3e91935ee.png "wafer fault pipeline")
+
 ## Data Validation - 
 
 In this step, we perform different sets of validation on the given set of training files.  
@@ -96,13 +99,3 @@ In this step, we perform different sets of validation on the given set of traini
 4) Prediction - Based on the cluster number, the respective model is loaded and is used to predict the data for that cluster.
 
 5) Once the prediction is made for all the clusters, the predictions along with the Wafer names are saved in a CSV file at a given location and the location is returned to the client.
-
-### Language Used - Python
-
-### Framework - Flask
-
-### Tools - PyCharm
-
-### Algorihtms - Random Forest Classifier and XGBoost Classifier
-
-### Accuracy Metric - AUC Score
